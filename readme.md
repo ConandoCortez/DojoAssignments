@@ -1,0 +1,1 @@
+This repository contains all the homework assignments done throughout the Coding Dojo bootcamp. 
