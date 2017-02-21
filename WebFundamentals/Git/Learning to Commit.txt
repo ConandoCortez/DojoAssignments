@@ -1,0 +1,17 @@
+cd desktop
+md test
+cd test
+touch index.html styles.css aboutMe.txt
+git init
+git add index.html styles.css aboutMe.txt
+git commit -m "added index.html, styles.css, aboutMe.txt"
+git status
+git add aboutMe.txt
+git commit -m "Updated aboutMe.txt"
+git add aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n 23a54ec
+git commit -m "Revert 23a54ec"
+git add aboutMe.txt
+git commit -m "Added loathed movie"
