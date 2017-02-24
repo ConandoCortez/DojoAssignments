@@ -1,0 +1,152 @@
+body{
+    background-color: #006699;
+}
+
+p{
+    font-family: arial;
+}
+#wrapper{
+    width: 970px;
+}
+#header{
+    margin-top: 25px;
+    float:right;
+    text-align: right;
+    position: relative;
+}
+#Python_Image{
+    height: 125px;
+    width: 400px;
+    background-image: url(Images/python.png);
+    background-size: 400px 125px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.search_header{
+    width: 300px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    border-radius: 10px;
+}
+#search_bar{
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    right: 10%;
+    padding: 10px;
+}
+
+.hyperlink_text{
+    text-decoration: underline;
+    color: gold;
+}
+#go_button{
+    background-color: #006699;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    right: 5%;
+    top: 25%;
+    position: relative;
+    border-color: white;
+    color: white;
+    border-style: solid;
+}
+#button_tabs{
+    height: 50px;
+    background-color: #87CEEB;
+    margin: 5px 70px;
+    border-radius: 10px;
+}
+.button{
+    color:white;
+    margin: 5px 15px;
+    text-align: center;
+    padding: 10px;
+    display:inline-block;
+    font-family: arial;
+    font-size: 20px;
+}
+.navigation{
+    width: 300px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+.navigation ul{
+    list-style-position: inside;
+}
+.navigation li{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.history{
+    width: 600px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.italicText{
+    color: gold;
+    font-style: italic;
+}
+
+.topics{
+    background-color: white;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.content{
+    width: 400px;
+    height: 250px;
+    display:inline-block;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.line-separator{
+    margin: 5px;
+    height: 3px;
+    width: 375px;
+    background: #87CEEB;
+    border-bottom: 1px solid #87CEEB;
+    position: relative;
+    align-items: center;
+    display:inline-block;
+}
+
+.topics h3{
+    margin-top: 10px;
+}
+
+.content span{
+    color:#87CEEB;
+}
+
+.content li{
+    color:#87CEEB;
+}
+
+.footer{
+    padding-top: 40px;
+    height: 60px;
+    text-align: center;
+    color:#87CEEB;
+}
+
+.footer span{
+    margin: 20px;
+}
